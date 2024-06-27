@@ -1,0 +1,32 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  table {
+    width: 80%;
+    max-width: 800px;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  td,
+  th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
